@@ -1,11 +1,24 @@
 html{
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
 }
 
 body{
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 110vh;
+}
+
+.mainDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
 
 }
 
+.sliderImg{
+height: 19rem;
+width: 25rem;
+}
