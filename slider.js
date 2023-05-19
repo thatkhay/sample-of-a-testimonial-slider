@@ -1,11 +1,14 @@
 const sliderImg = document.querySelector('.sliderImg');
 const bio = document.querySelector('.bio');
 const bioName = document.querySelector('.bioName');
-const slideButton = document.querySelector('.slideButton');
+const slideButton = document.querySelectorAll('.slideButton');
 
  imgIndex = [];
 
-slideButton.addEventListener('click', slide);
+ slideButton.forEach(button => {
+    button.addEventListener('click', slide);
+  });
+  
 
 function slide() {
     if (imgIndex === 0) {
